@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de mensagem</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    
+</head>
+<body>
+      <header class="cabecalho">
+         <img class="alura" src="Logo.png" alt="logo alura">
+         <h1 class="titulo__cabecalho" >Mensagens Codificadas</h1>
+      
+         <div>
+         <a  href= https://github.com/regicleide>
+         <img src="logo-guit.png" alt="logo-guit" width="50" height="50">
+      </a>
+      <a href="https://www.linkedin.com/in/regicleide-medeiros-dev/">
+   <img src="logo.link.azul.png" alt="logo linkedin" width="50"height="50">
+   </a>
+         <a href= https://www.instagram.com/regicleidemedeiros> 
+         <img  src="inst-colorido.avif" width="50"height="50" alt="logo instagram"> </a>
+      </div>
+      
+      </header>
+    <hr>
+     <main class="apresentacao">
+         
+         <section class="apresentacao__conteudo"> 
+               <textarea class="apresentacao__caixa1"  id="input-texto" placeholder="Digite seu texto aqui..."></textarea>
+              <p ><img class="img__caixa1"  src="bi_exclamation-circle-fill@2x.png" alt="atencao"> <strong class="titulo__alerta"> apenas letras minusculas e sem acento!</strong></p>
+         
+               <div class="alinhamento"><button  onclick="criptografar()" class="btn__criptografar">Criptografar</button>
+                        <button  onclick="descriptografar()" class="btn__descriptografar">Descriptografar</button>
+                     </div>
+                  </section>
+               
+               <section class="apresentacao__caixa2"> <div id="output">
+                 <img  src="High quality products 1 1.png" alt="menino" height="200px" width="200px" top="200px">
+                  
+                  <h2 class="titulo__2">Sua mensagem aparecerá aqui!</h2>
+               <textarea class="caixa__2"></textarea>
+              <button class="copiar" onclick="copiar">copiar</button>
+               </div></section>
+       
+
+     </main>
+     <hr>
+
+     <footer class="rodape">
+        <h3 class="titulo__rodape">Desenvolvido por Regicleide Medeiros</h3>
+        <h4> programa oracle + alura</h4>
+    
+     </footer>
+
+     <script src="script.js"></script>
+     
+</body>
+</html>

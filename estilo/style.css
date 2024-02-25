@@ -1,0 +1,151 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        height: 100vh;
+        box-sizing: border-box;
+        background-color: #129c9c;
+        
+        
+    }
+    .cabecalho{
+        display: flex;
+        justify-content: space-between;
+        margin: 1%;
+
+    }
+    .alura{
+    width:  120px;
+    height:48px;
+    top: 40px;
+    left: 40px;
+    gap: 40px;
+
+    }
+    .titulo__cabecalho{
+        font-family: "roboto", sans-serif;
+        font-size: 2,5rem;
+        color: beige;
+        
+        
+        }
+
+
+    .apresentacao{
+        margin: 5%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        
+        
+
+    }
+    .apresentacao__caixa1{
+        width: 680px;
+        height: 48px;
+        top: 168px;
+        left: 240px;
+        font-family: Inter;
+        margin-top: 100px;
+    font-size: 2,5rem;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: beige;
+
+        
+
+    }
+    .apresentacao__caixa2{
+    width: 300px;
+    height: 544px;
+    top: 40px;
+    left: 30px;
+    font-family:"roboto",sans-serif;
+    font-size: 2,5rem;
+    border: aliceblue;
+    border-radius:32px;
+    background-color: beige;
+    }
+    .caixa__2{
+    width: 300px;
+    height: 200px;
+    top: 800px;
+    left: 1032px;
+    gap: 30px;
+    border:60px
+
+
+
+    }
+    .btn__criptografar{
+    width:  200px;
+    height: 67px;
+    margin-top: 400px;
+    border-radius: 24px;
+    gap: 8px;
+    background-color: beige;
+    font-size: 1,5rem;
+
+    .apresentacao__conteudo{
+        display: flex;
+        flex-direction: column;
+
+    
+    }
+
+    }
+        .btn__descriptografar{
+        width:  200px;
+        height: 67px;
+        border-radius: 24px;
+        gap: 8px;
+        background-color: beige;
+        font-size: 1,5rem;
+
+    
+        }
+
+    .copiar{
+        width: 200px;
+        height: 30px;
+        padding: 1%;
+        margin: 30px;
+        border-radius: 20px;
+        background-color: beige;
+        font-size: 1,5rem;
+        border-radius: 20px;
+        
+
+        
+    }
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .titulo__alerta{
+        font-size:1,5rem;
+        gap: 10px;
+    }
+
+    @media(max-width:1600px){
+        .apresentacao__conteudo{
+            flex-direction: column;
+        }
+     
+        }
+    
+
+
+
+
+
+
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;500;700&display=swap')
